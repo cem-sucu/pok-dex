@@ -1,12 +1,11 @@
-h1{
-    color: aqua;
-    font-weight: bold;
+* {
+    background-image: url("./wallpa.png");
 }
 
-.card.horizontal{
+.card.horizontal {
     background-color: aqua;
 }
 
-h2{
+h2 {
     font-weight: bold;
 }

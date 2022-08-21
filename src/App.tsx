@@ -2,7 +2,7 @@ import React, { FunctionComponent, useState, useEffect } from "react";
 import Pokemon from "./models/pokemon";
 import "./app.css";
 import POKEMONS from "./models/mock-pokemon";
-import pokemonlogo from "./pokemon.png"
+import pokemonlogo from "./pokemon.png";
 
 const App: FunctionComponent = () => {
     const [pokemons, setPokemons] = useState<Pokemon[]>([]);
@@ -13,7 +13,9 @@ const App: FunctionComponent = () => {
 
     return (
         <div>
-            <h1 className="center"><img src={pokemonlogo} alt="pokémonLogo" /></h1>
+            <h1 className="center">
+                <img src={pokemonlogo} width="300" alt="pokémonLogo" />
+            </h1>
             <div className="container">
                 <div className="row">
                     {pokemons.map(({ id, name, picture, created }) => (
