@@ -1,9 +1,8 @@
 * {
     background-image: url("./wallpa.png");
 }
-
 .card.horizontal {
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.459);
 }
 
 h2 {
