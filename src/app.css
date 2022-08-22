@@ -1,6 +1,10 @@
 * {
     background-image: url("./wallpa.png");
 }
+
+h1{
+    box-shadow: #0008ff 0px 0px 20px 4px;
+}
 .card.horizontal {
     background-color: rgba(0, 255, 255, 0.459);
 }
